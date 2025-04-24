@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "What is useState and how does it work in React?",
+    "answer": "useState is a React Hook that lets you add state to functional components. It returns an array with two elements: the current state value and a function to update it. When the state is updated, React re-renders the component to reflect the new value.",
+    "addedDate": "2025-04-23"
+  },
+  {
+    "id": 2,
+    "question": "What is the purpose of useEffect in React?",
+    "answer": "useEffect is a React Hook used to handle side effects in functional components—like fetching data, subscribing to events, or directly manipulating the DOM. It runs after the component renders and can re-run when dependencies change.",
+    "addedDate": "2025-04-23"
+  },
+  {
+    "id": 3,
+    "question": "What is a custom hook in React and when should you use one?",
+    "answer": "A custom hook is a JavaScript function that starts with 'use' and can call other hooks inside it. It helps you extract and reuse logic between components. Use one when multiple components share the same hook-based logic (e.g., form handling, API fetching).",
+    "addedDate": "2025-04-23"
+  },
+  {
+    "id": 4,
+    "question": "Difference between controlled and uncontrolled components? Which one is better?",
+    "answer": "Controlled components are form inputs that get their value from React state and update via onChange handlers. Uncontrolled components manage their own state internally using refs. Controlled components are generally better in React because they offer better control, validation, and consistency.",
+    "addedDate": "2025-04-23"
+  },
+  {
+    "id": 5,
+    "question": "Tell us something about useFormStatus()",
+    "answer": "useFormStatus is a hook from React's experimental 'react-dom' package (used with server actions in React 18+). It gives you status info like whether a form is currently submitting. Useful for disabling buttons, showing loaders, etc., during async form submissions. Still experimental and used in server components with the app directory structure in frameworks like Next.js.",
+    "addedDate": "2025-04-23"
+  }
+]
