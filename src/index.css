@@ -1,0 +1,48 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+/* Tailwind and daisy ui */
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+    --font-primary: "Plus Jakarta Sans", sans-serif;
+    --font-secondary: "Manrope", sans-serif;
+  
+    --color-primaryColor: #176AE5;
+    --color-secondaryColor: #09982F;
+  }
+  
+  @layer utilities {
+    .font-primary {
+      font-family: var(--font-primary);
+    }
+  
+    .font-secondary {
+      font-family: var(--font-secondary);
+    }
+  
+    .text-primaryColor {
+      color: var(--color-primary);
+    }
+  
+    .text-secondaryColor {
+      color: var(--color-secondary);
+    }
+  }
+:root{
+    @apply font-primary
+}
+
+.btn {
+  box-shadow: none;
+}
+
+.active {
+  color: #176AE5;
+  font-weight: 700;
+  border-bottom: 2px solid #176AE5;
+}
+.errorScreen{
+  height: calc(100%-110px);
+}
